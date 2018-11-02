@@ -28,5 +28,7 @@ genfscon sysfs /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:2 u:object_r:s
 genfscon sysfs /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:3 u:object_r:sysfs_scsi_devices_other:s0
 genfscon sysfs /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:4 u:object_r:sysfs_scsi_devices_other:s0
 genfscon sysfs /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:5 u:object_r:sysfs_scsi_devices_other:s0
+genfscon sysfs /class/dual_role_usb                                             u:object_r:sysfs_usb_c:s0
+genfscon sysfs /class/dual_role_usb/otg_default                                       u:object_r:sysfs_usb_c:s0
 genfscon sysfs /devices/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.0.auto/usb1 u:object_r:sysfs_usb_device:s0
 genfscon sysfs /devices/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.0.auto/usb2 u:object_r:sysfs_usb_device:s0
