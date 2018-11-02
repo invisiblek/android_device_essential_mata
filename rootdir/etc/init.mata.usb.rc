@@ -68,6 +68,7 @@ on early-boot
     setprop sys.usb.ffs.max_read 524288
     setprop sys.usb.mtp.device_type 3
     setprop sys.usb.controller "a800000.dwc3"
+    write /sys/module/libcomposite/parameters/disable_l1_for_hs "y"
 
 on boot
     setprop sys.usb.configfs 2
