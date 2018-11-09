@@ -69,7 +69,6 @@ on early-boot
     mount functionfs ptp /dev/usb-ffs/ptp rmode=0770,fmode=0660,uid=1024,gid=1024,no_disconnect=1
     setprop sys.usb.mtp.device_type 3
     setprop sys.usb.controller "a800000.dwc3"
-    write /sys/module/libcomposite/parameters/disable_l1_for_hs "y"
 
 on boot
     setprop sys.usb.configfs 2
