@@ -1,2 +1,4 @@
 # allow apps to read battery stats
 r_dir_file(untrusted_app, sysfs_batteryinfo)
+allow untrusted_app vendor_camera_prop:file { getattr read open };
+allow untrusted_app proc_vmstat:file { getattr open };
