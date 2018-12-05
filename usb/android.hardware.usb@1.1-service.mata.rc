@@ -8,7 +8,7 @@ on boot
     chown root system /sys/class/dual_role_usb/otg_default/data_role
     chown root system /sys/class/dual_role_usb/otg_default/mode
     chown root system /sys/class/dual_role_usb/otg_default/supported_modes
-    chmod 664 /sys/class/dual_role_usb/otg_default/power_role
-    chmod 664 /sys/class/dual_role_usb/otg_default/data_role
-    chmod 664 /sys/class/dual_role_usb/otg_default/mode
-    chmod 664 /sys/class/dual_role_usb/otg_default/supported_modes
+    chmod 644 /sys/class/dual_role_usb/otg_default/power_role
+    chmod 644 /sys/class/dual_role_usb/otg_default/data_role
+    chmod 644 /sys/class/dual_role_usb/otg_default/mode
+    chmod 644 /sys/class/dual_role_usb/otg_default/supported_modes
