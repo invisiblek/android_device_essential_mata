@@ -1,1 +1,4 @@
 r_dir_file(hal_usb_default, sysfs_usbpd_device)
+
+r_dir_file(hal_usb_default, sysfs_usb_c)
+allow hal_usb_default sysfs_usb_c:file rw_file_perms;
